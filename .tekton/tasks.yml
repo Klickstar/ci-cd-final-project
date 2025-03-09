@@ -42,6 +42,9 @@ spec:
   workspaces:
     - name: source
   params:
+    - name: build-image
+      type: string
+      description: "the image to be built"
     - name: args
       description: Arguments to pass to nose
       type: string
